@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("../img/bg-head.jpg") center top no-repeat;
+    background-color:#edece8;
+}
+.main{
+    width: 970px;
+    margin: 0 auto;
+}
+.header{
+    height: 250px;
+}
+.header h2{
+    font-size: 24px;
+    font-family:"Myriad Pro" ;
+    color: #390000;
+    float: left;
+    margin-top: 10px;
+}
+.logo{
+    float: right;
+    margin: 20px 10px 0 0;
+}
+.contant-main{
+    background-color: #f7f7f7;
+    border: 1px solid #fff;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.menu{
+    list-style: none;
+    background-color:#7b3434;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+    
+    
+}
+.menu li{
+float: left;
+    background: url("../img/%D0%BB%D0%B8%D0%BD%D0%B8%D1%8F.png") left center no-repeat ;
+    padding: 15px 35px; 
+}
+.menu li:first-child{
+    background: none;
+}
+.menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-family:"Myriad Pro" ;
+    text-decoration: none;    
+}
+.menu li a:hover{
+    text-decoration: underline;
+}
+.seach-main{
+float: right;
+margin-right: 20px;
+margin-top: -6px;
+}
+.sech-text{
+    height: 25px;
+    width:230px;
+    border: 1px solid #fff;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    margin-right: 20px;
+    
+}
+.sech-button{
+    position: relative;
+    top:13px;
+}
+.content{
+    width: 700px;
+    float: left;
+    margin: 0 0 0 20px;
+    
+}
+.post-main{
+    background: #e9e9e9;
+    border: 1px solid #e7e2e3;
+    border-radius: 8px;
+    margin: 0 0 20px 0;
+    
+}
+.post-main h1{
+    background: #666666;
+    font: 24px Verdana;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 5px 20px 8px 15px;
+    margin: 0 0 5px 0;
+}
+.post-main h1 a{
+    background: #666666;
+    font: 24px Verdana;
+    color: #fff;
+    text-decoration: none;
+}
+.post-main h1 a:hover{
+    background: #666666;
+    font: 24px Verdana;
+    color: #fff;
+    text-decoration: underline;
+}
+.post-main h1 span{
+    font-size: 12px;
+    font-family: Verdana;
+    color: #c8c8c8;
+}
+.img-style{
+    float: left;
+    margin: 10px 15px 15px 0;
+    
+}
+.post{
+    margin: 0 15px 15px 15px;
+}
+.post p{
+    color: #390041;
+    font-size: 15px;
+    font-family: Arial;
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+}
+.post p a{
+    color: #6d0041;
+    text-decoration: underline;
+}
+.post p a:hover{
+    color: #6d0041;
+    text-decoration:none;
+}
+
+.sidebar{
+    width: 207px;
+    float:right;
+    margin: 0 0 0 20px;
+}
+#slider{
+	background: #b5b5b5;
+	border: 1px solid #3f282f;
+	height: 266px;
+	margin-top: 0px;
+	width: 927px;
+	overflow: hidden;
+	position: relative;
+	margin: 15px auto 25px;
+}
+
+#cyclePager{
+	position: absolute;
+	height: 18px;
+	overflow: hidden;
+	right: 20px;
+	bottom: 20px;
+	z-index: 99;
+}
+
+	#cyclePager a{
+		background: transparent url(../img/pager-gal.png) 0 0 no-repeat;
+		display: block;
+		float: left;
+		height: 17px;
+		margin-left: 10px;
+		text-indent: -9999px;
+		width: 17px;
+	}
+
+	#cyclePager a:hover,
+	#cyclePager a.activeSlide{background-position: -17px 0;}
+.vedges{
+    background: #dcdcdc;
+    border: 1px solid #d7d3d4;
+    border-radius: 8px;
+    margin: 0 20px 0 0;
+}
+.vedges h2{
+    font-family: Myriad Pro;
+    color:#fff;
+    font-size:20px ;
+    background: #7b3434;
+    padding:8px 0 ;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+.vedges ul{
+    list-style: none;
+    padding: 25px 15px;
+    
+    
+}
+.vedges ul li{
+    color: #390041;
+    border-bottom: 1px solid #cdbbbd;
+    border-top: 1px solid #fff;
+    padding: 5px 0 5px 20px;
+}
+.vedges ul li:first-child{
+    border-top: noe;
+
+}
+.vedges ul li:last-child{
+  
+    border-bottom:none;
+}
+.vedges ul li a{
+    font-size: 16px;
+    text-decoration: underline;
+    color: #390041;
+    
+}
+.vedges ul li a:hover{
+
+    text-decoration: none;
+    
+}
+.footer{
+    overflow: hidden;
+    padding: 30px 25px;
+    
+}
+
+.cpy{
+    float: left;
+    margin-right: 70px;
+    
+}
+.cpy a{
+    font-size: 26px;
+    font-family: Verdana;
+    color:#390000;
+    text-decoration: none;
+}
+.cpy a span{
+    color:#db0100;
+}
+.cpy p{
+    color: #390041;
+    font-size: 14px;
+    margin: 10px 0 0 0;
+}
+.menu-foot{
+    float: left;
+    margin: 0 100px;
+}
+.menu-foot h2{
+    color: #390041;
+    font-size: 24px;
+    font-style: normal;
+}
+.menu-foot ul{
+    list-style: none;
+}
+.menu-foot ul li a{
+    font: 14px;
+     color: #390041;
+}
+.menu-foot ul li a:hover{
+    font: 14px;
+     color: #390041;
+    text-decoration: none;
+}
+
+
